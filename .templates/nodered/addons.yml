@@ -11,6 +11,11 @@ addons:
     - "node-red-node-rbe"
     - "node-red-configurable-ping"
     - "node-red-dashboard"
+    - "node-red-contrib-bigtimer"
+    - "node-red-contrib-hourglass"
+    - "node-red-contrib-pid"
+    - "node-red-node-smooth"
+    - "node-red-contrib-telegrambot"
   default_off:
     - "node-red-node-openweathermap"
     - "node-red-contrib-discord"
