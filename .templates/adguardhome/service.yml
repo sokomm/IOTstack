@@ -9,8 +9,8 @@ adguardhome:
   # network_mode: host
   ports:
     # regular DNS
-    - "53:53/tcp"
-    - "53:53/udp"
+    - "192.168.10.200:53:53/tcp"
+    - "192.168.10.200:53:53/udp"
     # administration port (http)
     # note: external and internal ports MUST be the same
     #       not active until defined via setup port
